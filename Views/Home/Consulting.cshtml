@@ -1,0 +1,355 @@
+﻿
+@{
+    ViewBag.Title = "Consulting";
+}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<style>
+    p {
+        text-align: justify;
+        line-height: 25px;
+        color: #fff;
+    }
+
+    h4 {
+        font-weight: 500 !important;
+        color: #fff;
+    }
+
+    h5 {
+        font-weight: 400 !important;
+        color: #fff;
+    }
+
+    ul li {
+        color: #fff
+    }
+
+    .test-overly {
+        background: rgba(0, 0, 0, 0.80);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .single-services > h4 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .single-services > p {
+        color: #fff;
+    }
+
+    .services-icon {
+        color: #fff;
+    }
+
+    .faq-area {
+        /*background: rgba(248, 248, 248, 0.8) url("../img/calid-images/technology.jpg");*/
+        background: rgba(0, 0, 0, 0.80) url("../img/calid-images/Consulting-02.jpg");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .test-overly {
+        background: rgba(0, 0, 0, 0.80);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+
+    .well-bg {
+        position: relative;
+    }
+
+    .wellcome-area {
+        background: rgba(248, 248, 248, 0.8) url("../img/calid-images/Consulting-02.jpg");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .section-headline h2::after {
+        border: 1px solid #fff;
+        bottom: -20px;
+        content: "";
+        left: 0;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        width: 40%;
+    }
+
+    .tab-content {
+        background-color: rgba(255, 255, 255, 0.08);
+        border: 1px solid transparent;
+    }
+
+    .tab-menu ul.nav li a {
+        background-color: rgba(255, 255, 255, 0.08);
+        border: 1px solid transparent;
+        /*background: #eee none repeat scroll 0 0;*/
+        border-radius: 0;
+        color: #fff;
+        display: block;
+        font-weight: 500;
+        margin-right: 5px;
+        padding: 10px 20px;
+        font-family: raleway;
+        font-size: 18px;
+    }
+
+    .event-content.head-team h4 {
+        background: transparent none repeat scroll 0 0;
+        color: #fff;
+        padding: 30px 0 10px;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .btn:hover {
+        background: rgba(255, 255, 255, 0.10);
+        color: #fff;
+    }
+
+    .btn-default {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.02);
+        border-color: rgba(255, 255, 255, 0.02);
+    }
+
+        .btn-default:focus {
+            color: #fff;
+            background-color: rgba(255, 255, 255, 0.10);
+            border-color: #8c8c8c;
+        }
+</style>
+
+<div class="testimonials-area">
+    <div class="testi-inner area-padding" style="padding: 70px 0px 5px">
+        @*<img src="~/img/calid-images/Consulting-02.jpg" style="height:250px;width:100%" />*@
+    </div>
+</div>
+
+
+<div class="faq-area area-padding" style="padding: 40px 0px 0px !important;">
+    <div class="well-bg">
+        <div class="test-overly"></div>
+        <div style="margin-top:-40px;"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div style="margin-top:40px;"></div>
+                    <div class="section-headline text-center">
+                        <h2 style="color:white">consulting</h2>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col-md-12 col-sm-6 col-xs-12">
+                    <div class="tab-menu">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="active">
+                                <a href="#p-view-1" role="tab" data-toggle="tab">
+                                    <i class='fas fa-network-wired'></i>
+                                    Network
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#p-view-2" role="tab" data-toggle="tab">
+                                    <i class="fas fa-unlock-alt"></i>
+                                    Security
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#p-view-3" role="tab" data-toggle="tab">
+                                    <i class="fas fa-chart-line"></i>
+                                    Applications
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#p-view-4" role="tab" data-toggle="tab">
+                                    <i class='fas fa-city'></i>
+                                    Smart City
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="p-view-1">
+                            <div class="tab-inner">
+                                <div class="event-content head-team">
+                                    <br />
+                                    <p>
+                                        Wired or Wireless. Legacy or State of the Art. Maintenance or Migration. Secure Perimeters or Open Guest Wireless. Firewall or UTM. Auditorium AV or a Board Room Acoustics. NAC Solution or Wireless Intrusion Prevention System. Authentication or Quarantining VLAN. Third Party Servers or Self Driven APIs.
+                                    </p>
+                                    <p>
+                                        If these are the questions that are plaguing your IT team – the team at Calid offers solutions right what suits the needs. We as a team excel in listening and solution finding. We believe in the traditional methods of white-boarding and brainstorming. Collective architectural decisions with the best of secure technologies is what our firm belief is in. So is our consulting around everything network
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="p-view-2">
+                            <div class="tab-inner">
+                                <div class="event-content head-team">
+                                    <br />
+                                    <p>
+                                        <strong> Wireless Intrusion Prevention Systems: </strong>The biggest threat for any organization focused on extrinsic forces always gets to be the intrinsic or the insider attacks. Wireless, being a medium of contention over the years, how much flexibility it may bring, always has the skepticism of threat vectors attached to it. Wireless Intrusion Prevention plays a massive role there to ensure that outsider and insider threats alike over the wireless medium is not only realized but nipped in the bud. For the very reason, getting to understand one's Airspace and classifying clients based on their severity and applying policies is what Calid brings on the table
+                                    </p>
+                                    <p>
+                                        <strong>  Wired Peripheral Security: </strong>Securing the periphery of a network is the first line of defence against any attacks. Our domain knowledge helps you in selecting the best security product line to be placed at your network periphery. We excel in ensuring the integration of the same within your existing topology with minimal disruptions.
+                                    </p>
+                                    @*<button class="btn btn-default btn-md" data-toggle="collapse" data-target="#demo" > Read More...</button>*@
+                                   
+                                        <a class="toggle-text-button btn btn-default btn-md">Read More</a>
+                                  
+                                    <div id="demo" class="toggle-text">
+                                        <br />
+                                        <p>
+                                            <strong>   Deception Technologies: </strong>Being reactive is a thing of past, act like a hacker and lure them to your decoys, once honey trapped monitor their behaviour to understand and seal your corporate network
+                                        </p>
+                                        <p>
+                                            <strong>  Identity and Access Management:</strong> Defining and enforcing a framework of policies using appropriate technology to ensure each employee in the organization has appropriate access to resources.
+                                        </p>
+                                        <p>
+                                            <strong>  Financial Anti-Fraud: </strong>The most pressing national threat emanating from institutions alike is the crime of Money Laundering and Terrorist Financing. The techniques used is deemed mostly as undetectable due to the complexity of the techniques used.
+                                            Anti Money Laundering Technology or AML thus has made it easier for regulators, countries have an stranglehold and an easy access to the miscreants.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="p-view-3">
+                            <div class="tab-inner">
+                                <div class="event-content head-team">
+                                    <h4>Applications - Transforming your ideas to a viable product</h4>
+                                    <p>The interconnected world now runs totally on applications. It is a no-brainer that utilities and daily needs are all turning into apps slowly and steadily making living easier. The constant strive for us at Calid is automation and how the pain points can be solved with the powerful usage of Apps.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="p-view-4">
+                            <div class="tab-inner">
+                                <div class="event-content head-team">
+                                    <h4>Smart City - from creating a blueprint to creating a brand</h4>
+                                    <p>
+                                        The smart city concept integrates information and community technology (ICT), and various physical devices connected to the IoT network to optimize the efficiency of city operations and services and connect to citizens. Smart city technology allows city officials to interact directly with both community and city infrastructure and to monitor what is happening in the city and how the city is evolving.
+                                    </p>
+                                    <p>
+                                        Smart Cities engage effectively with local people in local governance, improving the collective intelligence of the city's institutions through e-governance,  with emphasis placed on citizen participation. They evolve towards a strong integration of all dimensions of human intelligence, collective intelligence and also artificial intelligence within the city.
+                                    </p>
+
+                                    @*<button class="btn btn-default btn-md" data-toggle="collapse" data-target="#smart">Read More...</button>*@
+                                    <a class="toggle-text-button btn btn-default btn-md">Read More</a>
+
+                                    <div id="smart" class="toggle-text">
+                                        <h2></h2>
+                                        <p>
+                                            The intelligence of cities "resides in the increasingly effective combination of digital telecommunications networks, ubiquitously embedded intelligence, sensors & tags, and software.
+
+                                        </p>
+                                        <p>
+                                            These forms of intelligence in smart cities have been demonstrated in three ways which we are fully equipped to service:
+                                        </p>
+                                        <p>
+
+                                            <strong> Orchestration intelligence: </strong>Where cities establish institutions and community-based problem solving and collaborations.<br />
+                                            <strong>  Empowerment intelligence:</strong> Cities provide open platforms, experimental facilities and smart city infrastructure in order to cluster innovation in certain key places.<br />
+                                            <strong>   Instrumentation intelligence:</strong> Where city infrastructure is made smart through real-time data collection, with analysis and predictive modelling across the city. Examples of Instrumentation intelligence have been implemented through:
+                                            <ul>
+                                                <li>A common IP infrastructure that is open to researchers to develop applications.</li>
+                                                <li>Wireless meters and devices transmit information at the point in time.</li>
+                                                <li>A number of homes being provided with smart energy meters to become aware of energy consumption and reduce energy usage.</li>
+                                                <li>Solar power garbage compactors, car recharging stations and energy-saving lamps.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="padding:25px;"></div>
+            <!-- end Row -->
+        </div>
+    </div>
+
+    <div class="wellcome-area">
+        <div class="well-bg">
+            <div class="test-overly"></div>
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wellcome-area">
+    <div class="well-bg">
+        <div class="test-overly"></div>
+        <div class="container">
+
+        </div>
+    </div>
+</div>
+
+<style>
+    .toggle-text {
+        display: none;
+    }
+
+   
+     
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/css/uikit.min.css" rel="stylesheet" />
+
+<script>
+    // Add click event dynamically
+    $(document).on("click", ".toggle-text-button", function () {
+
+        // Check if text is more or less
+        if ($(this).text() == "Read More") {
+
+            // Change link text
+            $(this).text("Read Less");
+
+            // Travel up DOM tree to parent, then find any children with CLASS .toggle-text and slide down
+            $(this).parent().children(".toggle-text").slideDown();
+
+        } else {
+
+
+            // Change link text
+            $(this).text("Read More");
+
+            // Travel up DOM tree to parent, then find any children with CLASS .toggle-text and slide up
+            $(this).parent().children(".toggle-text").slideUp();
+
+        }
+
+    });
+</script>
